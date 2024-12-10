@@ -48,7 +48,7 @@
       @1 
          $reset = *reset;
          $input[7:0] = *ui_in;
-         $equal = $input[7];
+         $equal = $input[6];
          $op[1:0] =  $input[5:4];
          $in[3:0] = $input[3:0];
          
