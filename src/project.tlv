@@ -50,7 +50,7 @@
          $input[7:0] = *ui_in;
          $equal = $input[7];
          $op[1:0] =  $input[5:4];
-         $in = $input[3:0];
+         $in[3:0] = $input[3:0];
          
          $val1[3:0] = >>1$out[3:0];
          $val2[3:0] = $in;
